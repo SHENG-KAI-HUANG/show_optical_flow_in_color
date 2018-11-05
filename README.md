@@ -1,21 +1,27 @@
 # show_optical_flow_in_color
-this is python code (for python3) to show optical flow in color form.
+This is python3 code to show optical flow in color form.
 
 This code is modified from:  
 https://blog.csdn.net/zouxy09/article/details/8683859
 
-please install following package before using this code:
+Please install following package before using this code:
 1. opencv
 2. numpy
+
+Coding and testing by Anaconda in Windows 10 with python 3.6.4.
 
 Flow field color coding:
 
 ![alt text](https://github.com/SHENG-KAI-HUANG/show_optical_flow_in_color/blob/master/optical_flow_color.png)
 
-this image is a clone from flownet2[1] supplementary material.
+This image is a clone from flownet2[1] supplementary material.
+In this code, I using opencv's coordinate which means right direction is postive x, and down direction is postive y (original point is the white point in the image).
 
 Beware, ususally optical flow will be put in .flo, but here I assume already can get x and y direction optical flow vector successfullly.
-in this project will have a sample .npy to show how to use this code(the .npy file is created by [[2] github code](https://github.com/lmb-freiburg/netdef_models))
+
+In this project will have a sample .npy to show how to use this code.
+The original .flo file is created by [[2] github code](https://github.com/lmb-freiburg/netdef_models).
+Then, restore the .flo file by numpy. 
 
 How to use this code:
 1. 
