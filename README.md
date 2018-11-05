@@ -2,6 +2,8 @@
 This is python3 code to show optical flow in color.<br />
 If there are anything don't understand please feel free to post an issue.<br />
 
+Coding and testing by Anaconda in Windows 10 with python 3.6.4.<br />
+
 This code is modified from:<br />
 https://blog.csdn.net/zouxy09/article/details/8683859 <br />
 
@@ -9,29 +11,25 @@ Please install following package before using this code:<br />
 1. opencv<br />
 2. numpy<br />
 
-Coding and testing by Anaconda in Windows 10 with python 3.6.4.<br />
-
+## Some important information:
 Flow field color coding:
 
 ![alt text](https://github.com/SHENG-KAI-HUANG/show_optical_flow_in_color/blob/master/optical_flow_color.png)
 
 This image is a clone from flownet2[1] supplementary material.<br />
-In this code, I using opencv's coordinate which means right direction is postive x, and down direction is postive y.<br />
+In this code, I using opencv's coordinate which means east is postive x, and south is postive y.<br />
 (original point is the white point in the image).<br />
 <br />
-Beware, ususally optical flow will be put in .flo, but here I assume already can get x and y direction optical flow vector successfullly.<br />
-<br />
-In this project will have a sample .npy to show how to use this code.<br />
-The original .flo file is created by [[2] github code](https://github.com/lmb-freiburg/netdef_models).<br />
-Then, restore the .flo file by numpy. <br />
-the optical flow is from [chair001.m2ts](https://lmb.informatik.uni-freiburg.de/resources/datasets/StereoEgomotion.en.html)(left frame).<br /> 
 
-How to use this code:<br />
-1. make sure the .npy using channel 0 as y direction vector and channel 1 as x direction vector<br />
-2. run the code by input:<br />
+## How to using this code:
+In this project will have a sample .pfm to show how to use this code.<br />
+this .pfm is download from [Monkaa scene flow dataset sample pack](https://lmb.informatik.uni-freiburg.de/resources/datasets/SceneFlowDatasets.en.html)<br /> 
+you can also find how to read .pfm by python from the above website.<br /> 
+
+Run the code by input:<br />
 python3 main.py<br />
 
-it will create a windows to show the result.<br />
+it will create a windows to show the result like this.<br />
 the function that turn optical flow vector into color be putted at show_optical_function.py.<br />
 
 -----------------<br />
