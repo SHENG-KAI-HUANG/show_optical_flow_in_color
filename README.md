@@ -1,5 +1,5 @@
 # show_optical_flow_in_color
-This is python3 code to show optical flow in color form.<br />
+This is python3 code to show optical flow in color.<br />
 If there are anything don't understand please feel free to pose an issue.<br />
 
 This code is modified from:<br />
