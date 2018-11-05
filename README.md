@@ -7,3 +7,5 @@ https://blog.csdn.net/zouxy09/article/details/8683859
 please install following package before using this code:
 opencv
 numpy
+
+![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
