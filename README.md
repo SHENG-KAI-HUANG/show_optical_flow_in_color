@@ -30,8 +30,8 @@ How to use this code:<br />
 1. make sure the .npy using channel 0 as y direction vector and channel 1 as x direction vector<br />
 2. run the code by input:<br />
 python3 main.py<br />
-then it will create a windows to show the result.<br />
 
+it will create a windows to show the result.<br />
 the function that turn optical flow vector into color be putted at show_optical_function.py.<br />
 
 -----------------<br />
