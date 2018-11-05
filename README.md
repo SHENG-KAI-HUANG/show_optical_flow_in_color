@@ -1,4 +1,4 @@
-# show_optical_flow_in_color
+### show_optical_flow_in_color
 This is python3 code to show optical flow in color.<br />
 If there are anything don't understand please feel free to post an issue.<br />
 
@@ -14,7 +14,7 @@ Please install following package before using this code:<br />
 ## Some important information:
 Flow field color coding:
 
-![alt text](https://github.com/SHENG-KAI-HUANG/show_optical_flow_in_color/blob/master/optical_flow_color.png)
+![alt text](https://github.com/SHENG-KAI-HUANG/show_optical_flow_in_color/blob/master/readme_image/optical_flow_color.png)
 
 This image is a clone from flownet2[1] supplementary material.<br />
 In this code, I using opencv's coordinate which means east is postive x, and south is postive y.<br />
@@ -24,13 +24,14 @@ In this code, I using opencv's coordinate which means east is postive x, and sou
 ## How to using this code:
 In this project will have a sample .pfm to show how to use this code.<br />
 this .pfm is download from [Monkaa scene flow dataset sample pack](https://lmb.informatik.uni-freiburg.de/resources/datasets/SceneFlowDatasets.en.html)<br /> 
-you can also find how to read .pfm by python from the above website.<br /> 
+you can also find original code that how to read .pfm by python from the above website.<br /> 
 
 Run the code by input:<br />
 python3 main.py<br />
 
-it will create a windows to show the result like this.<br />
-the function that turn optical flow vector into color be putted at show_optical_function.py.<br />
+It will create a windows to show the result like this.<br />
+![alt text](https://github.com/SHENG-KAI-HUANG/show_optical_flow_in_color/blob/master/readme_image/flow_48.jpg)<br />
+Functions that turn optical flow vector into color all in the show_optical_function.py.<br />
 
 -----------------<br />
 Reference:<br />
