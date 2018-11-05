@@ -2,7 +2,7 @@
 This is python3 code to show optical flow in color.<br />
 If there are anything don't understand please feel free to post an issue.<br />
 
-Coding and testing by Anaconda in Windows 10 with python 3.6.4.<br />
+Coding and testing by Anaconda in Windows 10 with python 3.6.5.<br />
 
 This code is modified from:<br />
 https://blog.csdn.net/zouxy09/article/details/8683859 <br />
