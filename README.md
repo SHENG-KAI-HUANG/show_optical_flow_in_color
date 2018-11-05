@@ -15,7 +15,8 @@ Flow field color coding:
 ![alt text](https://github.com/SHENG-KAI-HUANG/show_optical_flow_in_color/blob/master/optical_flow_color.png)
 
 This image is a clone from flownet2[1] supplementary material.<br />
-In this code, I using opencv's coordinate which means right direction is postive x, and down direction is postive y (original point is the white point in the image).<br />
+In this code, I using opencv's coordinate which means right direction is postive x, and down direction is postive y.<br />
+(original point is the white point in the image).<br />
 <br />
 Beware, ususally optical flow will be put in .flo, but here I assume already can get x and y direction optical flow vector successfullly.<br />
 <br />
