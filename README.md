@@ -37,5 +37,5 @@ the function that turn optical flow vector into color be putted at show_optical_
 -----------------<br />
 Reference:<br />
 [1]	E.Ilg, N.Mayer, T.Saikia, M.Keuper, A.Dosovitskiy, and T.Brox, “FlowNet 2.0: Evolution of Optical Flow Estimation With Deep Networks,” in The IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2017.<br />
-[2]	E.Ilg, T.Saikia, M.Keuper, andT.Brox, “Occlusions, Motion and Depth Boundaries with a Generic Network for Disparity, Optical Flow or Scene Flow Estimation,” in The European Conference on Computer Vision (ECCV), 2018.<br />
+[2]	E.Ilg, T.Saikia, M.Keuper, and T.Brox, “Occlusions, Motion and Depth Boundaries with a Generic Network for Disparity, Optical Flow or Scene Flow Estimation,” in The European Conference on Computer Vision (ECCV), 2018.<br />
 
