@@ -23,10 +23,13 @@ Beware, ususally optical flow will be put in .flo, but here I assume already can
 In this project will have a sample .npy to show how to use this code.<br />
 The original .flo file is created by [[2] github code](https://github.com/lmb-freiburg/netdef_models).<br />
 Then, restore the .flo file by numpy. <br />
+the optical flow is from [chair001 video](https://lmb.informatik.uni-freiburg.de/resources/datasets/StereoEgomotion.en.html)(left frame).<br /> 
 
 How to use this code:<br />
-1. <br />
-
+1. make sure the .npy using channel 0 as y direction vector and channel 1 as x direction vector<br />
+2. run the code by input:<br />
+python3 main.py
+then it will create a windows to show the result.
 
 -----------------<br />
 Reference:<br />
