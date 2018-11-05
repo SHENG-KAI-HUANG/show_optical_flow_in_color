@@ -8,12 +8,12 @@ import cv2
 import numpy as np
 from show_optical_function import makecolorwheel, motionToColor
 
-flow_path = '../../output/optical_flow_calc';
+#flow_path = '../../output/optical_flow_calc';
 
 colorwheel = []; 
 makecolorwheel(colorwheel);
 
-flow = np.load(flow_path + '/flow_0_1.out.npy');
+flow = np.load('flow_0_1.out.npy');#flow_path + '/flow_0_1.out.npy');
 """
 flow = np.ones((200,200,2));
 flow[:,:,0] *= 0;
